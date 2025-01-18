@@ -17,11 +17,11 @@
 }
 
 .heading h2 {
-    font-size: 3rem;
+    font-size: 40px;
     margin: 0px;
     font-weight: 700;
     color: #01539D;
-    line-height: 1.375;
+    line-height: 55px;
 }
 
 .student-with-lap{
@@ -114,27 +114,27 @@
 .container h5{
     margin: 2px;
     font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 1.53;
+    font-size: 18px;
+    line-height: 24.55px;
     color: #1E1E1E;
     white-space: nowrap;
 }
 
 .views-number {
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: 800;
     color: #01539D;
 }
 
 .views-plus{
     color: #33C7CA;
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: 800;
 }
 
 .views-text{
-    font-size: 1.125rem;
-    line-height: 3.2;
+    font-size: 17px;
+    line-height: 54.56px;
     font-weight:300;
     color: #1E1E1ECC;
     white-space: nowrap;
@@ -143,12 +143,12 @@
 @media (max-width: 1274px) {
 
     .heading{
-        margin-top: 2.5rem;
+        margin-top: 3rem;
     }
 
-    .student-with-lap{
-        width: 290px;
-        height: 170px;
+    .student-with-lap {
+        width: 280px;
+        height: 160px;
     }
 
     .heading h2 {
@@ -156,43 +156,38 @@
         margin: 0px;
         font-weight: 700;
         color: #01539D;
-        line-height: 40px;
+        line-height: 1.6;
     }
 }
 
-@media(max-width:1111px){
-
-    .heading{
-        margin-top: 3rem;
-    }
-
-    .student-with-lap{
-        width: 190px;
-        height: 120px;
+@media (max-width: 1111px) {
+    .student-with-lap {
+        width: 180px;
+        height: 110px;
     }
 
     .heading h2 {
-        margin-top: 3rem;
-        font-size: 2rem;
+        margin-top: 2rem;
+        font-size: 2.2rem;
         margin: 0px;
         font-weight: 800;
         color: #01539D;
-        line-height: 45px;
+        line-height: 1.5;
     }
 }
 
-@media(max-width:655px){
-    .student-with-lap{
+@media (max-width: 655px) {
+    .student-with-lap {
         display: none;
     }
 
     .heading h2 {
-        font-size: 1.6rem;
+        font-size: 2rem;
         margin: 0px;
-        margin-top: 3rem;
+        margin-top: 2rem;
         font-weight: 900;
         color: #01539D;
-        line-height: 35px;
+        line-height: 1.4;
         text-align: center;
     }
 }
