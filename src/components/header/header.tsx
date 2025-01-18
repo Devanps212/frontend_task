@@ -1,5 +1,5 @@
 import './header.css'
-import { FaHome, FaPhone } from 'react-icons/fa'
+import { FaBars, FaHome, FaPhone } from 'react-icons/fa'
 
 const Header = ()=>{
     return(
@@ -29,6 +29,7 @@ const Header = ()=>{
                         <li><button className='contact-us'>Contact Us</button></li>
                     </ul>
                 </nav>
+                <FaBars className='menu-bar'/>
             </div>
         </header>
     )    
