@@ -21,8 +21,11 @@ const Banner = () => {
                 </div>
             </div>
         </div>
-        <div>
-            <h1>hello</h1>
+        <div className='banner-image'>
+            <img
+                src='/others/bce0b964101030f9f3f41487f32e8956.png'
+                alt='student'
+                className='student'/>
         </div>
     </section>
   )

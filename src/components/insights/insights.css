@@ -1,0 +1,198 @@
+.insights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    gap:40px;
+    width: 100%;
+}
+
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    gap: 35px;
+    width: 83%;
+}
+
+.heading h2 {
+    font-size: 3rem;
+    margin: 0px;
+    font-weight: 700;
+    color: #01539D;
+    line-height: 1.375;
+}
+
+.student-with-lap{
+    width: 390px;
+    height: 220px;
+}
+
+.insight-detail{
+    display: flex;
+    align-items: center;
+    gap:3.4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    border: solid 1px transparent;
+    padding-inline: 25px;
+    padding-block: 15px;
+    border-radius: 15px;
+    width: 220px;
+    height: auto;   
+}
+
+.views{
+    background-color: rgba(125, 241, 184, 0.2);
+}
+
+.learners{
+    background-color:rgba(132, 191, 242, 0.2);
+}
+
+.watch-time{
+    background-color: rgba(255, 190, 70, 0.2);
+}
+
+.questions{
+    background-color: rgba(255, 160, 140, 0.2);
+}
+
+.container.views::after {
+    content: '';
+    position: absolute;
+    top: -6.3px;
+    right: -6px;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(135deg, rgba(125, 241, 184, 0.5) 42%, transparent 40%);
+    transform: scaleX(-1) rotate(180deg);
+    border-radius: 30%;
+}
+
+.container.learners::after {
+    content: '';
+    position: absolute;
+    top: -6.3px;
+    right: -6px;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(135deg, rgba(131, 240, 255, 0.5) 42%, transparent 40%);
+    transform: scaleX(-1) rotate(180deg);
+    border-radius: 30%;
+}
+
+.container.watch-time::after {
+    content: '';
+    position: absolute;
+    top: -6.3px;
+    right: -6px;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(135deg, rgba(255, 190, 70, 0.5) 42%, transparent 40%);
+    transform: scaleX(-1) rotate(180deg);
+    border-radius: 30%;
+}
+
+.container.questions::after {
+    content: '';
+    position: absolute;
+    top: -6.3px;
+    right: -6px;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(135deg, rgba(255, 160, 140, 0.5) 42%, transparent 40%);
+    transform: scaleX(-1) rotate(180deg);
+    border-radius: 30%;
+}
+
+.container h5{
+    margin: 2px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.53;
+    color: #1E1E1E;
+    white-space: nowrap;
+}
+
+.views-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #01539D;
+}
+
+.views-plus{
+    color: #33C7CA;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.views-text{
+    font-size: 1.125rem;
+    line-height: 3.2;
+    font-weight:300;
+    color: #1E1E1ECC;
+    white-space: nowrap;
+}
+
+@media (max-width: 1274px) {
+
+    .heading{
+        margin-top: 2.5rem;
+    }
+
+    .student-with-lap{
+        width: 290px;
+        height: 170px;
+    }
+
+    .heading h2 {
+        font-size: 2.5rem;
+        margin: 0px;
+        font-weight: 700;
+        color: #01539D;
+        line-height: 40px;
+    }
+}
+
+@media(max-width:1111px){
+
+    .heading{
+        margin-top: 3rem;
+    }
+
+    .student-with-lap{
+        width: 190px;
+        height: 120px;
+    }
+
+    .heading h2 {
+        margin-top: 3rem;
+        font-size: 2rem;
+        margin: 0px;
+        font-weight: 800;
+        color: #01539D;
+        line-height: 45px;
+    }
+}
+
+@media(max-width:655px){
+    .student-with-lap{
+        display: none;
+    }
+
+    .heading h2 {
+        font-size: 1.6rem;
+        margin: 0px;
+        margin-top: 3rem;
+        font-weight: 900;
+        color: #01539D;
+        line-height: 35px;
+        text-align: center;
+    }
+}
