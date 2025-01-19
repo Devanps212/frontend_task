@@ -177,6 +177,11 @@
 }
 
 @media (max-width: 655px) {
+
+    .insights{
+        padding-bottom: 60px;
+    }
+
     .student-with-lap {
         display: none;
     }

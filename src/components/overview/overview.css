@@ -1,17 +1,43 @@
 .over-view{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
-    gap: 30px;
+    gap: 4rem;
     width: 100%;
     background: linear-gradient(to right, #2AA7B5, #01539D)
 }
 
+/* .over-view::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #b3d9ff;
+    clip-path: path("M 50 200 L 0 100 C 30 50 100 40 150 70 C 200 100 250 50 300 70 L 300 200 Z");
+} */
+
 .img-working-student{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+}
+
+.img-working-student::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    border-radius: 100%;
+    background: rgba(51, 199, 202, 0.42);
+    z-index: -1;
 }
 
 .img-student{
@@ -27,6 +53,7 @@
     gap: 12px;
     width: 680px;
     color: white;
+    margin-top: 15px;
 }
 
 .purpose h1{
@@ -64,15 +91,90 @@
     display: flex;
     justify-content: start;
     align-items: start;
+    margin-top: 15px;
 }
 
 .read-more {
     padding: 12px;
-    border: solid 3px #FFDD1E;
+    border: solid 2px #FFDD1E;
     border-radius: 25px;
-    padding-inline: 20px;
+    padding-inline: 18px;
+    padding-block: 10px;
     background-color: transparent;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 16px;
     line-height: 21.82px;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .over-view {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        height: 89vh;
+    }
+
+    .purpose {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .purpose h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .para-1, .para-2 {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .btn {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-working-student::before {
+        width: 28vw;
+        height: 28vw;
+    }
+    
+    .img-student {
+        width: 28vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .over-view {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .img-working-student {
+        display: none;
+    }
+
+    .purpose h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .para-1, .para-2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .read-more {
+        font-size: 14px;
+    }
 }

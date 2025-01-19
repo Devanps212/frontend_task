@@ -22,7 +22,7 @@ const Overview = () => {
                 delivery methodology has paved the way for their achievements.</p>
             </div>
             <div className='btn'>
-              <button className='read-more'>Contact Us</button>
+              <button className='read-more'>Read More</button>
             </div>
         </div>
     </section>
