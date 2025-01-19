@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    min-height: 76.8vh;
     gap:40px;
-    width: 100%;
+    margin-bottom: 1rem;
 }
 
 .heading{
@@ -13,7 +13,7 @@
     justify-content: flex-start;
     align-items: end;
     gap: 35px;
-    width: 83%;
+    width: 77.5%;
 }
 
 .heading h2 {
@@ -32,7 +32,7 @@
 .insight-detail{
     display: flex;
     align-items: center;
-    gap:3.4rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
 }
