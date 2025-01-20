@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     height: auto;
+    margin-top: 3rem;
 }
 
 .join-title{
@@ -60,6 +61,13 @@
     line-height: 32px;
     color: #1E1E1E;
     margin-block: 6px;
+}
+
+.contents p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: rgba(30, 30, 30, 0.8);
 }
 
 .dotted-square-1-right,
@@ -136,14 +144,6 @@
     top: 82.9%;
 }
 
-
-.contents p{
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 30px;
-    color: rgba(30, 30, 30, 0.8);
-}
-
 .img-section-right{
     width: 216px;
     height: 150px;
@@ -173,5 +173,85 @@
     .dotted-square-1-right,
     .dotted-square-2-right {
         display: none;
+    }
+}
+
+@media(max-width:1090px){
+    .contents p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color: rgba(30, 30, 30, 0.8);
+    }
+
+    .contents span {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        color: #01539D;
+    }
+    
+    .contents h4 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #1E1E1E;
+        margin-block: 6px;
+    }
+}
+
+@media(max-width:890px){
+
+    .main-container {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        padding-inline: 20px;
+        justify-content:center;
+        gap: 50px;
+        position: relative;
+    }
+
+    .container-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-section-right{
+        display: none;
+    }
+
+    .contents {
+        display: inline;
+    }
+
+    .contents p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        color: rgba(30, 30, 30, 0.8);
+        text-align: justify;
+    }
+
+    .contents span {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 27px;
+        color: #01539D;
+    }
+    
+    .contents h4 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 27px;
+        color: #1E1E1E;
+        margin-block: 6px;
     }
 }

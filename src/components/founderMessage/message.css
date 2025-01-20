@@ -1,0 +1,162 @@
+.message-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 4rem;
+    background-color: #01539D;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.message h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    margin: 0;
+    color: #FFFFFF;
+}
+.msg-para {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: white;
+}
+
+.readMore {
+    padding: 12px;
+    border: solid 2px #FFDD1E;
+    border-radius: 25px;
+    padding-inline: 20px;
+    background-color: transparent;
+    font-weight: 100;
+    font-size: 15px;
+    width: fit-content;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    gap: 8px;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.insta-icon,
+.linkedin-icon {
+    padding: 12px;
+    width: 19px;
+    height: 19px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta-icon {
+    background: linear-gradient(to right, #EBB12B, #BF007E);
+}
+
+.linkedin-icon {
+    background: linear-gradient(to right, #1A94FF, #0060B7);
+}
+
+.insta,
+.linkedin {
+    color: white;
+}
+.founder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    padding: 8px;
+}
+
+.founder-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 333px;
+    height: 333px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #33C7CA, #23A6ED);
+    position: relative;
+}
+
+.img-background {
+    position: relative;
+    overflow: hidden;
+    width: 315px;
+    height: 318px;
+    border-radius: 100%;
+}
+
+.fondr-image {
+    width: 132%;
+    height: 155%;
+    object-fit: cover;
+    position: relative;
+    top: -51px;
+    left: -65px;
+}
+
+.speech-bubble {
+    position: absolute;
+    background: #A5EFFF;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.speech-bubble.top-left {
+    top: 18%;
+    left: 9%;
+    width: 36px;
+    height: 36px;
+}
+
+.speech-bubble.bottom-right {
+    bottom: 15%;
+    right: 5%;
+    width: 65px;
+    height: 65px;
+}
+
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.speech-bubble.top-left::after {
+    top: 2%;
+    left: -17%;
+    border-width: 0px 17px 15px 24px;
+    border-color: transparent transparent #A5EFFF transparent;
+    bottom: 113%;
+    border-radius: 10px 0 0 0;
+    transform: rotate(278deg);
+}
+
+.speech-bubble.bottom-right::after {
+    right: 7%;
+    bottom: -8%;
+    border-width: 0px 23px 19px 32px;
+    border-color: transparent transparent #A5EFFF transparent;
+    transform: rotate(-40deg);
+}

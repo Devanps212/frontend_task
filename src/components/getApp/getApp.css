@@ -1,0 +1,152 @@
+.getApp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #1A94FF, #33C7CA);
+    height: 57.8vh;
+    padding: 0 20px;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    max-width: 50%;
+}
+
+.download h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+    line-height: 54.56px;
+    margin: 0;
+}
+
+.download p {
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+    line-height: 32px;
+    margin: 0;
+}
+
+.download-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-content-1,
+.btn-content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #2D2D2D, #131313);
+    border-radius: 10px;
+    width: 167px;
+    height: 60px;
+    gap: 12px;
+}
+
+.btn-content-1 h5,
+.btn-content-2 h5,
+.btn-content-1 h6,
+.btn-content-2 h6 {
+    margin: 0;
+    color: white;
+    text-align: start;
+}
+
+.btn-content-1 h5,
+.btn-content-2 h5 {
+    font-size: 9px;
+}
+
+.btn-content-1 h6,
+.btn-content-2 h6 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.playstore-icon {
+    width: 29px;
+    height: 33px;
+}
+
+.apple-icon {
+    color: white;
+}
+
+.mobile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 3.8rem;
+}
+
+.phone-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 992px) {
+    .getApp {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        gap: 40px;
+    }
+
+    .download {
+        max-width: 100%;
+        margin-top: 4rem;
+    }
+
+    .download-btn {
+        justify-content: center;
+    }
+
+    .mobile-img {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .phone-img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .download h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .download p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .mobile-img {
+        max-width: 80%;
+    }
+
+    .phone-img {
+        max-width: 100%;
+    }
+
+    .btn-content-1,
+    .btn-content-2 {
+        width: 140px;
+        height: 50px;
+    }
+
+    .btn-content-1 h6,
+    .btn-content-2 h6 {
+        font-size: 13px;
+    }
+}
