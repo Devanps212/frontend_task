@@ -7,6 +7,8 @@ import JoinUs from './components/joinUs/joinUs'
 import StudentTalk from './components/studentsTalk/studentTalk'
 import GetApp from './components/getApp/getApp'
 import FounderMessage from './components/founderMessage/message'
+import ContactUs from './components/contactUs/contactUs'
+import Courses from './components/popularCourses/courses'
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
     <StudentTalk/>
     <GetApp/>
     <FounderMessage/>
+    <ContactUs/>
+    <Courses/>
     </>
   )
 }
