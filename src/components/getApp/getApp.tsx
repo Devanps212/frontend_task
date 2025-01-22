@@ -1,5 +1,5 @@
-import { FaApple } from 'react-icons/fa';
 import './getApp.css';
+import Buttons from '../buttons/buttons';
 
 const GetApp = () => {
   return (
@@ -11,24 +11,7 @@ const GetApp = () => {
           anytime and anywhere on the DeeCee App
         </p>
         <div className='download-btn'>
-          <button className='btn-content-1'>
-            <img
-              src='/icons/logo.png'
-              alt='google playstore icon'
-              className='playstore-icon'
-            />
-            <div>
-              <h5>GET IT ON</h5>
-              <h6>Google Play</h6>
-            </div>
-          </button>
-          <button className='btn-content-2'>
-            <FaApple size={36} className='apple-icon' />
-            <div>
-              <h5>Download on the</h5>
-              <h6>App Store</h6>
-            </div>
-          </button>
+          <Buttons/>
         </div>
       </div>
       <div className='mobile-img'>

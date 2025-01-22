@@ -9,6 +9,7 @@ import GetApp from './components/getApp/getApp'
 import FounderMessage from './components/founderMessage/message'
 import ContactUs from './components/contactUs/contactUs'
 import Courses from './components/popularCourses/courses'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
     <FounderMessage/>
     <ContactUs/>
     <Courses/>
+    <Footer/>
     </>
   )
 }

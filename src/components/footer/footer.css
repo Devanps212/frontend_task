@@ -1,0 +1,300 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    height: auto;
+    gap: 40px;
+}
+  
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1160px;
+    width: 100%;
+    height: auto;
+    margin-block: 30px;
+    justify-content: space-between;
+}
+  
+.company-detail {
+    flex: 2;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background-color: #F5F9FD;
+}
+
+.company-detail h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    margin-block: 12px;
+}
+  
+.logo-company {
+    width: 173px;
+}
+  
+.btn-dwnld {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+}
+  
+.btn-content-google,
+.btn-content-apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #2d2d2d, #131313);
+    border-radius: 8px;
+    width: 105px;
+    height: 40px;
+    outline: none;
+    border: solid 1px gray;
+    gap: 6px;
+    padding-inline: 10px;
+}
+  
+.btn-content-google h5,
+.btn-content-apple h5,
+.btn-content-google h6,
+.btn-content-apple h6 {
+    margin: 0;
+    color: white;
+    text-align: start;
+}
+  
+.btn-content-google h5,
+.btn-content-apple h5 {
+    font-size: 6px;
+}
+  
+.btn-content-google h6,
+.btn-content-apple h6 {
+    font-size: 10px;
+    white-space: nowrap;
+    font-weight: 300;
+}
+  
+.icon-google {
+    width: 17px;
+    height: 17px;
+}
+  
+.icon-apple {
+    color: white;
+}
+  
+.company-detail p {
+    margin-block: 7px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #1e1e1e99;
+    line-height: 28px;
+}
+
+.company-detail hr {
+    width: 100%;
+    color: #B0C4CB;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+  
+.email-number{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.email,
+.number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.email span,
+.number span {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 37px;
+}
+
+.btn-dwnld{
+    margin-top: 13px;
+}
+  
+.email-icon,
+.mobile-icon {
+    color: white;
+    background: #01539D;
+    border-radius: 50%;
+    padding: 6px;
+}
+  
+.quick-links,
+.support-findUs div {
+    max-width: 280px;
+    flex: 0;
+}
+  
+.quick-links h4,
+.support-findUs h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #1E1E1ECC;
+}
+  
+.link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+  
+.link-list li {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    line-height: 42px;
+    color: #6c757d;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.youtube-icon {
+    color: #F44336;
+}
+  
+.instagram-icon {
+    color: #D46A43;
+}
+  
+.facebook-icon {
+    color: #1976D2;
+}
+  
+.lin-icon {
+    color: #01539D;
+}
+
+.social-media-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+  
+.rights-reserved {
+    background-color: #f8f8f8;
+    color: #666;
+    font-size: 14px;
+    width: 100%;
+}
+
+.footer-end {
+    text-align: start;
+    padding-inline: 11rem;
+}
+
+.rights-reserved h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1E1E1ECC;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .company-detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .email-number{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quick-links,
+    .support-findUs div {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .link-list li {
+        line-height: 36px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .footer-content {
+        padding-inline: 0px;
+    }
+
+    .logo-company {
+        width: 150px;
+    }
+
+    .company-detail p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .btn-dwnld {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-content-google,
+    .btn-content-apple {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .email span,
+    .number span {
+        font-size: 16px;
+    }
+
+    .link-list {
+        gap: 2px;
+    }
+
+    .link-list li {
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .rights-reserved h6 {
+        text-align: center;
+        padding-inline: 0;
+    }
+
+    .footer-end {
+        padding-inline: 0;
+    }
+}

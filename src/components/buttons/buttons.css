@@ -1,0 +1,40 @@
+.btn-content-1,
+.btn-content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #2D2D2D, #131313);
+    border-radius: 10px;
+    width: 167px;
+    height: 60px;
+    gap: 12px;
+}
+
+.btn-content-1 h5,
+.btn-content-2 h5,
+.btn-content-1 h6,
+.btn-content-2 h6 {
+    margin: 0;
+    color: white;
+    text-align: start;
+}
+
+.btn-content-1 h5,
+.btn-content-2 h5 {
+    font-size: 9px;
+}
+
+.btn-content-1 h6,
+.btn-content-2 h6 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.playstore-icon {
+    width: 29px;
+    height: 33px;
+}
+
+.apple-icon {
+    color: white;
+}

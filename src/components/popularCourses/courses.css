@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: auto;
+    margin-block: 6rem;
     flex-direction: column;
 }
 
