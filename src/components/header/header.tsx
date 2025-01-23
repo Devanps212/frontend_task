@@ -30,9 +30,9 @@ const Header = ()=>{
         }
     }, [])
 
-    const toggleSidebar = () => {
+    const toggleSidebar = ()=>{
         setIsSidebarOpen(!isSidebarOpen);
-    };
+    }
     
     return(
         <>

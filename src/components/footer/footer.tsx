@@ -1,4 +1,12 @@
-import { FaApple, FaFacebookF, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaRegEnvelope, FaYoutube } from 'react-icons/fa'
+import { 
+    FaApple, 
+    FaFacebookF, 
+    FaInstagram, 
+    FaLinkedinIn, 
+    FaPhoneAlt, 
+    FaRegEnvelope, 
+    FaYoutube 
+} from 'react-icons/fa'
 import './footer.css'
 
 const Footer = () => {
@@ -7,7 +15,7 @@ const Footer = () => {
         <div className='footer-content'>
             <div className='company-detail'>
                 <img
-                    src='/public/logo/b12e2398ba4a5bc748c0465a80a857c6-removebg-preview.png'
+                    src='/logo/b12e2398ba4a5bc748c0465a80a857c6-removebg-preview.png'
                     alt='deecee-logo'
                     className='logo-company'/>
                     <p>As we continue our journey, we remain steadfast in our

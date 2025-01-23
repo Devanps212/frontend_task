@@ -7,8 +7,10 @@ const Banner = () => {
         <div className='details'>
             <h4>Premium Course</h4>
             <h2>THE EARLY BIRDS BATCH</h2>
-            <h5>CLASS - 12, SESSION 2023 - 24</h5>
-            <h1>ACCOUNTANCY</h1>
+            <div style={{marginTop:"5px"}}>
+                <h5>CLASS - 12, SESSION 2023 - 24</h5>
+                <h1>ACCOUNTANCY</h1>
+            </div>
             <div className='features'>
                 <div className='features-group'>
                     <p className='feature-item'><FaCheckCircle className='feature-icon'/> Complete Syllabus</p>

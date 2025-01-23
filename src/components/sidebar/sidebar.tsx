@@ -12,7 +12,7 @@ const Sidebar = ({
         <>
             <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <div className="sidebar-header">
-                    <h3>Menu</h3>
+                    <h3>DEECEE</h3>
                     <FaTimes className="close-btn" onClick={toggleSidebar} />
                 </div>
                 <ul className="sidebar-list">
